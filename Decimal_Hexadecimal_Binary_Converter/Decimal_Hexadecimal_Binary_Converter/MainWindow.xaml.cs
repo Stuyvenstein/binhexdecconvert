@@ -57,7 +57,6 @@ namespace Decimal_Hexadecimal_Binary_Converter
             if (Array.IndexOf(allowedDec, e.Text) < 0 || decText.Text.Length >= 18)
             {
                 e.Handled = true;
-                Console.Beep();
             }
         }
 
@@ -66,7 +65,6 @@ namespace Decimal_Hexadecimal_Binary_Converter
             if (Array.IndexOf(allowedHex, e.Text.ToUpper()) < 0 || decText.Text.Length >= 18)
             {
                 e.Handled = true;
-                Console.Beep();
             }
         }
 
@@ -75,7 +73,6 @@ namespace Decimal_Hexadecimal_Binary_Converter
             if (Array.IndexOf(allowedBin, e.Text) < 0 || decText.Text.Length >= 18)
             {
                 e.Handled = true;
-                Console.Beep();
             }
         }
 
