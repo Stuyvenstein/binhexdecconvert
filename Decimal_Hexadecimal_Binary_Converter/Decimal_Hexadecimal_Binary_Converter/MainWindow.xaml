@@ -1,0 +1,16 @@
+﻿<Window x:Class="Decimal_Hexadecimal_Binary_Converter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="180" Width="640" Style="{StaticResource MainWindowStyle}"  Loaded="Window_Loaded" MouseDown="Window_MouseDown"  >
+    <Grid>
+        <Button Style="{StaticResource CloseButton}" Click="CloseWindow" Margin="595,10,10,145"  >X</Button>
+        <Button Style="{StaticResource CloseButton}" Click="MinimizeWindow" Margin="560,10,45,145">_</Button>
+        <TextBox Style="{StaticResource TextboxStyle}" Width="424.901" Margin="170.099,74,45,81" Name="decText" PreviewTextInput="decText_PreviewTextInput" TextChanged="decText_TextChanged" />
+        <TextBox Style="{StaticResource TextboxStyle}" Width="424.901" Margin="170.099,104,45,51" Name="hexText" PreviewTextInput="hexText_PreviewTextInput" TextChanged="hexText_TextChanged"  ></TextBox>
+        <TextBox Style="{StaticResource TextboxStyle}" Width="424.901" Margin="170.099,134,45,21" Name="binText" PreviewTextInput="binText_PreviewTextInput" TextChanged="binText_TextChanged"  ></TextBox>
+        <Label Content="Decimal" HorizontalAlignment="Left" Margin="22.708,74,0,0" VerticalAlignment="Top" Width="86.391" Height="25" Foreground="#bbb"/>
+        <Label Content="Hexadecimal" HorizontalAlignment="Left" Margin="22.708,104,0,0" VerticalAlignment="Top" Width="86.391" Height="25" Foreground="#bbb"/>
+        <Label Content="Binary" HorizontalAlignment="Left" Margin="22.708,134,0,0" VerticalAlignment="Top" Width="86.391" Height="25" Foreground="#bbb"/>
+        <Label Content="Decimal, Hexadecimal and Binary Converter" HorizontalAlignment="Left" HorizontalContentAlignment="Center" FontWeight="Bold" Margin="10,10,0,0" VerticalAlignment="Top" Width="551" Height="25" Foreground="#999"/>
+    </Grid>
+</Window>
