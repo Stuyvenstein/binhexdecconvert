@@ -3,8 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Decimal, Hexadecimal and Binary Converter" Height="180" Width="640" Style="{StaticResource MainWindowStyle}"  Loaded="Window_Loaded" MouseDown="Window_MouseDown"  >
     <Grid>
-        <Button Style="{StaticResource CloseButton}" Click="CloseWindow" Margin="595,10,10,145"  >X</Button>
-        <Button Style="{StaticResource CloseButton}" Click="MinimizeWindow" Margin="560,10,45,145">_</Button>
+        <Button Style="{StaticResource CloseButton}" Click="CloseWindow" Margin="596,9,9,146"  >X</Button>
+        <Button Style="{StaticResource CloseButton}" Click="MinimizeWindow" Margin="561,9,44,146">_</Button>
         <TextBox Style="{StaticResource TextboxStyle}" Width="424.901" Margin="170.099,74,45,81" Name="decText" PreviewTextInput="decText_PreviewTextInput" TextChanged="decText_TextChanged" />
         <TextBox Style="{StaticResource TextboxStyle}" Width="424.901" Margin="170.099,104,45,51" Name="hexText" PreviewTextInput="hexText_PreviewTextInput" TextChanged="hexText_TextChanged"  ></TextBox>
         <TextBox Style="{StaticResource TextboxStyle}" Width="424.901" Margin="170.099,134,45,21" Name="binText" PreviewTextInput="binText_PreviewTextInput" TextChanged="binText_TextChanged"  ></TextBox>
